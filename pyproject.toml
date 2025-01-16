@@ -30,7 +30,6 @@ classifiers = [
     'Operating System :: MacOS',
     'Programming Language :: Python',
     'Programming Language :: Python :: 3',
-    'Programming Language :: Python :: 3.8',
     'Programming Language :: Python :: 3.9',
     'Programming Language :: Python :: 3.10',
     'Programming Language :: Python :: 3.11',
@@ -52,7 +51,7 @@ include = [
 
 
 [tool.poetry.dependencies]
-python = ">=3.8,<4"
+python = ">=3.9,<4"
 django = ">=4.2, <6"
 django-picklefield = "^3.1"
 
